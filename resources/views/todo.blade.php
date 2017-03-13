@@ -22,12 +22,14 @@
 				</div>
 			</div>
 			<div class="col-lg-1">
-				
+				<button type="submit" class="btn btn-success">Add</button>
 			</div>
 			<div class="col-lg-8">
 				
 			</div>
 		</div>
+		
+		
 	</form>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		</div>
