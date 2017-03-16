@@ -12,8 +12,7 @@
 			<h1>ToDo List</h1>
 	<ul>
 		@foreach($todo as $td)
-							<li>{{ $td->item }}
-							</li>
+			<li>{{ $td->item }}  <a href="{{ url('todo/hapus/'.$td->id_todo) }}" class="btn btn-danger"> X </a></li>
 		@endforeach
 	</ul>
 	<form action="todo" method="POST">

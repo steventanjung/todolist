@@ -18,3 +18,4 @@ Route::get('/', function () {
 
 Route::get('todo', 'TodoController@index');
 Route::post('todo', 'TodoController@store');
+Route::get('todo/hapus/{td}', 'TodoController@hapus');

@@ -21,4 +21,9 @@ class TodoController extends Controller
     	$todo = Todo::all();
     	return view('todo')->with('todo', $todo);
     }
+
+    public function hapus(Request $request, Todo $td){
+        $td->delete();
+        return redirect('todo');
+    }
 }
